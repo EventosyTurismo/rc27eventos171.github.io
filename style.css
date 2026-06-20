@@ -1,12 +1,10 @@
 *{
-  Morado principal: #6D28D9
-Morado oscuro: #4C1D95
-
-Verde principal: #22C55E
-Verde oscuro: #15803D
-
-Blanco: #FFFFFF
-Gris claro: #F8FAFC
+ /* Morado principal: #6D28D9 */
+/* Morado oscuro: #4C1D95 */
+/* Verde principal: #22C55E */
+/* Verde oscuro: #15803D */
+/* Blanco: #FFFFFF */
+/* Gris claro: #F8FAFC */
 margin:0;
 padding:0;
 box-sizing:border-box;
@@ -135,18 +133,13 @@ gap:25px;
 
 .card{
 
+.card{
 background:white;
 padding:30px;
 border-radius:20px;
-
-box-shadow:
-0 10px 25px rgba(0,0,0,.08);
-
+box-shadow:0 10px 25px rgba(0,0,0,.08);
 transition:.4s;
-
 cursor:pointer;
-
-}
 }
 
 .card:hover{
@@ -160,11 +153,9 @@ background:#4c1d95;
 color:white;
 text-align:center;
 padding:30px;
+}
   @keyframes fadeUp {
-
-from{
-opacity:0;
-transform:translateY(50px);
+...
 }
 
 to{
@@ -218,7 +209,7 @@ linear-gradient(
 .hero .btn{
 animation:fadeUp 1.6s ease;
 }
-}
+
 @keyframes gradientMove{
 
 0%{
@@ -233,6 +224,7 @@ background-position:100% 50%;
 background-position:0% 50%;
 }
 
+}
 .whatsapp{
 position:fixed;
 right:25px;
@@ -250,4 +242,5 @@ color:white;
 z-index:9999;
 box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
-}
+
+
